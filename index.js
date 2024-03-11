@@ -28,9 +28,9 @@ const rpc = new Discord.RichPresence()
             id: Discord.getUUID(),
         })
   
-  .setAssetsLargeImage(`mp:attachments/1202368997107040340/1203849029704884314/92aab3019ed4c0b21b9956f7ffaebe98.jpg`)
+  .setAssetsLargeImage(`mp:attachments/1192951324367671306/1216105677362041004/IMG_6043.jpg`)
       .setAssetsLargeText(`dead`)
-      .setAssetsSmallImage(`mp:attachments/1202368997107040340/1203849029704884314/92aab3019ed4c0b21b9956f7ffaebe98.jpg`)
+      .setAssetsSmallImage(`mp:attachments/1192951324367671306/1216105677362041004/IMG_6043.jpg`)
       .setAssetsSmallText(`deathrow`)
   client.user.setActivity(rpc.toJSON());
 
