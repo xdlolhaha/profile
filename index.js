@@ -18,7 +18,7 @@ client.on('ready', async () => {
 const rpc = new Discord.RichPresence()
         .setApplicationId('1156344185734058044')
         .setType('STREAMING')
-        .setURL(`https://www.youtube.com/watch?v=DxNt7xV5aII&ab_channel=LilPeep`)
+        .setURL(`https://www.youtube.com/watch?v=qI0pJAGgbvo&ab_channel=LilPeep`)
         .setDetails(`deathrow.lol`)
         .setName(`deathrow.lol`)
         .setState(`deathrow.lol `)
