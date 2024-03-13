@@ -16,7 +16,7 @@ const client = new Discord.Client({
 client.on('ready', async () => {
 
 const rpc = new Discord.RichPresence()
-        .setApplicationId('1156344185734058044')
+        .setApplicationId('944298217078661201')
         .setType('STREAMING')
         .setURL(`https://www.youtube.com/watch?v=qI0pJAGgbvo&ab_channel=LilPeep`)
         .setDetails(`deathrow.lol`)
@@ -28,9 +28,9 @@ const rpc = new Discord.RichPresence()
             id: Discord.getUUID(),
         })
   
-  .setAssetsLargeImage(`mp:attachments/1202368997107040340/1203849029704884314/92aab3019ed4c0b21b9956f7ffaebe98.jpg`)
+  .setAssetsLargeImage(`mp:attachments/1208142160973791322/1216859202480242788/1158891675888922645.png`)
       .setAssetsLargeText(`dead`)
-      .setAssetsSmallImage(`mp:attachments/1202368997107040340/1203849029704884314/92aab3019ed4c0b21b9956f7ffaebe98.jpg`)
+      .setAssetsSmallImage(`attachments/1208142160973791322/1216859202480242788/1158891675888922645.png`)
       .setAssetsSmallText(`deathrow`)
   client.user.setActivity(rpc.toJSON());
 
